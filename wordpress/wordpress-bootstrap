@@ -1,0 +1,13 @@
+#!/usr/bin/php
+<?php
+
+//setup global $_SERVER variables to keep WP from trying to redirect
+$_SERVER = array(
+  "HTTP_HOST" => "http://mysite.com",
+  "SERVER_NAME" => "http://mysite.com",
+  "REQUEST_URI" => "/",
+  "REQUEST_METHOD" => "GET"
+);
+
+//require the WP bootstrap
+require_once(dirname(__FILE__).'/wp-load.php');

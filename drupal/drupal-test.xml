@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+
+   colors="true"
+
+>
+
+   <testsuites>
+
+       <testsuite name="DrupalCustomModules">
+
+           <file>sites/al/modules/custom/meu_modulo/tests/MeuModuloTests.php</file>
+
+           ...
+
+       </testsuite>
+
+   </testsuites>
+
+</phpunit>
